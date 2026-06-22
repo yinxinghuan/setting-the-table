@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/setting-the-table/',
+  base: './',
   plugins: [react()],
   server: {
     host: '0.0.0.0',
